@@ -1,0 +1,58 @@
+{
+  "GameModeType": 0,
+  "CastleDamageMode": 0,
+  "CastleHeartDamageMode": 0,
+  "DeathContainerPermission": 1,
+  "RelicSpawnType": 1,
+  "CanLootEnemyContainers": false,
+  "TeleportBoundItems": false,
+  "InventoryStacksModifier": 5.0,
+  "DropTableModifier_General": 2.0,
+  "DropTableModifier_Missions": 2.0,
+  "MaterialYieldModifier_Global": 2.0,
+  "BloodEssenceYieldModifier": 2.0,
+  "AnnounceSiegeWeaponSpawn": false,
+  "CraftRateModifier": 10.0,
+  "RefinementRateModifier": 10.0,
+  "ServantConvertRateModifier": 20.0,
+  "Death_DurabilityFactorLoss": 0.0,
+  "Death_DurabilityLossFactorAsResources": 0.0,
+  "VBloodUnitSettings": [],
+  "UnlockedAchievements": [],
+  "UnlockedResearchs": [],
+  "GameTimeModifiers": {
+    "DayDurationInSeconds": 2160.0
+  },
+  "VampireStatModifiers": {},
+  "UnitStatModifiers_Global": {},
+  "UnitStatModifiers_VBlood": {},
+  "EquipmentStatModifiers_Global": {},
+  "CastleStatModifiers_Global": {
+    "PylonPenalties": {
+      "Range1": {},
+      "Range2": {},
+      "Range3": {},
+      "Range4": {},
+      "Range5": {}
+    },
+    "FloorPenalties": {
+      "Range1": {},
+      "Range2": {},
+      "Range3": {},
+      "Range4": {},
+      "Range5": {}
+    },
+    "HeartLimits": {
+      "Level1": {},
+      "Level2": {},
+      "Level3": {},
+      "Level4": {}
+    }
+  },
+  "PlayerInteractionSettings": {
+    "VSPlayerWeekdayTime": {},
+    "VSPlayerWeekendTime": {},
+    "VSCastleWeekdayTime": {},
+    "VSCastleWeekendTime": {}
+  }
+}
