@@ -27,3 +27,12 @@ h-ssh:
 
 h-copy-files:
 	scp -r ${PWD} user@$(shell hcloud server describe ${server_name} -o json | jq .public_net.ipv4.ip -r):/home/user
+
+world_name := pwf
+autosave_path := /home/user/v-rising-server-dedicated/server-data/Saves/v1/${world_name}
+autosave_num := 316
+h-list-autosaves:
+	ssh user@$(shell hcloud server describe ${server_name} -o json | jq .public_net.ipv4.ip -r) ls -lah ${autosave_path}
+
+h-get-autosave:
+	scp -r user@$(shell hcloud server describe ${server_name} -o json | jq .public_net.ipv4.ip -r):${autosave_path}/AutoSave_${autosave_num}.save ${server_data_local}/Saves/v1/${world_name}
